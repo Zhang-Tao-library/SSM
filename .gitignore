@@ -1,0 +1,19 @@
+# maven ignore
+
+/**/target/
+
+*.jar
+
+*.war
+
+
+# idea ignore
+
+.idea/
+
+*.ipr
+
+*.iml
+
+*.iws
+/*/*.iml

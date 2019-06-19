@@ -1,0 +1,572 @@
+2018-12-03 18:42:27,218 [main] [org.springframework.context.support.ClassPathXmlApplicationContext]-[DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@62727399]
+2018-12-03 18:42:27,218 [main] [org.springframework.context.support.ClassPathXmlApplicationContext]-[DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@4d9ac0b4]
+2018-12-03 18:42:27,219 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@517d4a0d: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,jedisPoolConfig,redisClient,jedisClientCluster,contentServiceImpl,itemCatServiceImpl,itemServiceImpl,redisServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,tbContentCategoryMapper,tbContentMapper,tbItemCatMapper,tbItemDescMapper,tbItemMapper,tbItemParamItemMapper,tbItemParamMapper,tbOrderItemMapper,tbOrderMapper,tbOrderShippingMapper,tbUserMapper]; root of factory hierarchy
+2018-12-03 18:42:27,220 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-12-03 18:42:27,221 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'dataSource'
+2018-12-03 18:42:27,221 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'dataSource'
+2018-12-03 18:42:27,222 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,222 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,222 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' to allow for resolving potential circular references
+2018-12-03 18:42:27,225 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#130dca52'
+2018-12-03 18:42:27,230 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#130dca52'
+2018-12-03 18:42:27,230 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,232 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-12-03 18:42:27,247 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,248 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,285 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'dataSource'
+2018-12-03 18:42:27,286 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,286 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'sqlSessionFactory'
+2018-12-03 18:42:27,286 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,286 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2018-12-03 18:42:27,290 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'dataSource'
+2018-12-03 18:42:27,290 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2018-12-03 18:42:27,323 [main] [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed configuration file: 'class path resource [mybatis/SqlMapConfig.xml]'
+2018-12-03 18:42:27,323 [main] [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Property 'mapperLocations' was not specified or no matching resources found
+2018-12-03 18:42:27,323 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,323 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,334 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'sqlSessionFactory'
+2018-12-03 18:42:27,334 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-12-03 18:42:27,334 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'jedisPoolConfig'
+2018-12-03 18:42:27,334 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'jedisPoolConfig'
+2018-12-03 18:42:27,335 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,335 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'jedisPoolConfig' to allow for resolving potential circular references
+2018-12-03 18:42:27,338 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,338 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,339 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'jedisPoolConfig'
+2018-12-03 18:42:27,340 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'redisClient'
+2018-12-03 18:42:27,340 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redisClient'
+2018-12-03 18:42:27,340 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,341 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#294a6b8e'
+2018-12-03 18:42:27,341 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,345 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,347 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,349 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#294a6b8e'
+2018-12-03 18:42:27,350 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#4b1d6571'
+2018-12-03 18:42:27,350 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,350 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,351 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,351 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#4b1d6571'
+2018-12-03 18:42:27,351 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#1b835480'
+2018-12-03 18:42:27,352 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,353 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,354 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,354 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#1b835480'
+2018-12-03 18:42:27,354 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#3549bca9'
+2018-12-03 18:42:27,354 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,355 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,355 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,355 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#3549bca9'
+2018-12-03 18:42:27,356 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#4f25b795'
+2018-12-03 18:42:27,356 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,357 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,358 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,358 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#4f25b795'
+2018-12-03 18:42:27,358 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redis.clients.jedis.HostAndPort#6fb365ed'
+2018-12-03 18:42:27,358 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,362 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,362 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,362 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redis.clients.jedis.HostAndPort#6fb365ed'
+2018-12-03 18:42:27,363 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'jedisPoolConfig'
+2018-12-03 18:42:27,433 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'redisClient' to allow for resolving potential circular references
+2018-12-03 18:42:27,448 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,448 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,448 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redisClient'
+2018-12-03 18:42:27,448 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'jedisClientCluster'
+2018-12-03 18:42:27,448 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'jedisClientCluster'
+2018-12-03 18:42:27,448 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.dao.impl.JedisClientCluster]: AutowiredFieldElement for private redis.clients.jedis.JedisCluster com.taotao.rest.dao.impl.JedisClientCluster.jedisCluster
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'jedisClientCluster' to allow for resolving potential circular references
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'jedisClientCluster': AutowiredFieldElement for private redis.clients.jedis.JedisCluster com.taotao.rest.dao.impl.JedisClientCluster.jedisCluster
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbContentCategoryMapper'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbContentCategoryMapper'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbContentCategoryMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbContentMapper'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbContentMapper'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbContentMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbItemCatMapper'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbItemCatMapper'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbItemCatMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbItemDescMapper'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbItemDescMapper'
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbItemDescMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,464 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbItemMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbItemMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbItemMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbItemParamItemMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbItemParamItemMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbItemParamItemMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbItemParamMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbItemParamMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbItemParamMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbOrderItemMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbOrderItemMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbOrderItemMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbOrderMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbOrderMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbOrderMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbOrderShippingMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbOrderShippingMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbOrderShippingMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'tbUserMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'tbUserMapper'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'tbUserMapper' to allow for resolving potential circular references
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbUserMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,480 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbUserMapper'
+2018-12-03 18:42:27,511 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,511 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,511 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbUserMapper'
+2018-12-03 18:42:27,511 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,511 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbOrderShippingMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,511 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbOrderShippingMapper'
+2018-12-03 18:42:27,527 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,527 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,527 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbOrderShippingMapper'
+2018-12-03 18:42:27,542 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,542 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbOrderMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,542 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbOrderMapper'
+2018-12-03 18:42:27,558 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,558 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,558 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbOrderMapper'
+2018-12-03 18:42:27,558 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,558 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbOrderItemMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,558 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbOrderItemMapper'
+2018-12-03 18:42:27,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbOrderItemMapper'
+2018-12-03 18:42:27,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbItemParamMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,652 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbItemParamMapper'
+2018-12-03 18:42:27,745 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,745 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,745 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbItemParamMapper'
+2018-12-03 18:42:27,745 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,745 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbItemParamItemMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,745 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbItemParamItemMapper'
+2018-12-03 18:42:27,761 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,761 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,761 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbItemParamItemMapper'
+2018-12-03 18:42:27,777 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,777 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbItemMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,777 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbItemMapper'
+2018-12-03 18:42:27,855 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,855 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,855 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbItemMapper'
+2018-12-03 18:42:27,855 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,855 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbItemDescMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,855 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbItemDescMapper'
+2018-12-03 18:42:27,901 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,901 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,901 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbItemDescMapper'
+2018-12-03 18:42:27,901 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,901 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbItemCatMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,901 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbItemCatMapper'
+2018-12-03 18:42:27,948 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,948 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,948 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbItemCatMapper'
+2018-12-03 18:42:27,948 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,948 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbContentMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,964 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbContentMapper'
+2018-12-03 18:42:27,995 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,995 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:27,995 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbContentMapper'
+2018-12-03 18:42:27,995 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:27,995 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name 'tbContentCategoryMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-12-03 18:42:27,995 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'tbContentCategoryMapper'
+2018-12-03 18:42:28,026 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,026 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,026 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'tbContentCategoryMapper'
+2018-12-03 18:42:28,026 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'redisClient'
+2018-12-03 18:42:28,026 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'jedisClientCluster' to bean named 'redisClient'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'jedisClientCluster'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'contentServiceImpl'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'contentServiceImpl'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ContentServiceImpl]: AutowiredFieldElement for private com.taotao.mapper.TbContentMapper com.taotao.rest.service.impl.ContentServiceImpl.contentMapper
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ContentServiceImpl]: AutowiredFieldElement for private com.taotao.rest.dao.JedisClient com.taotao.rest.service.impl.ContentServiceImpl.jedisClient
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ContentServiceImpl]: AutowiredFieldElement for private java.lang.String com.taotao.rest.service.impl.ContentServiceImpl.INDEX_CONTENT_REDIS_KEY
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'contentServiceImpl' to allow for resolving potential circular references
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'contentServiceImpl': AutowiredFieldElement for private com.taotao.mapper.TbContentMapper com.taotao.rest.service.impl.ContentServiceImpl.contentMapper
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbContentMapper'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'contentServiceImpl' to bean named 'tbContentMapper'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'contentServiceImpl': AutowiredFieldElement for private com.taotao.rest.dao.JedisClient com.taotao.rest.service.impl.ContentServiceImpl.jedisClient
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'jedisClientCluster'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'contentServiceImpl' to bean named 'jedisClientCluster'
+2018-12-03 18:42:28,042 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'contentServiceImpl': AutowiredFieldElement for private java.lang.String com.taotao.rest.service.impl.ContentServiceImpl.INDEX_CONTENT_REDIS_KEY
+2018-12-03 18:42:28,058 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'INDEX_CONTENT_REDIS_KEY' in any property source
+2018-12-03 18:42:28,058 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'INDEX_CONTENT_REDIS_KEY' in [localProperties] with type [String]
+2018-12-03 18:42:28,058 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,058 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,058 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'txAdvice'
+2018-12-03 18:42:28,058 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'txAdvice'
+2018-12-03 18:42:28,058 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'txAdvice' to allow for resolving potential circular references
+2018-12-03 18:42:28,058 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'transactionManager'
+2018-12-03 18:42:28,058 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'transactionManager'
+2018-12-03 18:42:28,058 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,058 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2018-12-03 18:42:28,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'dataSource'
+2018-12-03 18:42:28,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2018-12-03 18:42:28,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'transactionManager'
+2018-12-03 18:42:28,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#10ded6a9'
+2018-12-03 18:42:28,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,089 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-12-03 18:42:28,089 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [insert*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-12-03 18:42:28,089 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-12-03 18:42:28,089 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [create*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-12-03 18:42:28,089 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [delete*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-12-03 18:42:28,089 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-12-03 18:42:28,089 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [find*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2018-12-03 18:42:28,089 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [select*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2018-12-03 18:42:28,089 [main] [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]-[DEBUG] Adding transactional method [get*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#10ded6a9'
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'txAdvice'
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'txAdvice'
+2018-12-03 18:42:28,089 [main] [org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]-[DEBUG] Creating implicit proxy for bean 'contentServiceImpl' with 0 common interceptors and 2 specific interceptors
+2018-12-03 18:42:28,089 [main] [org.springframework.aop.framework.JdkDynamicAopProxy]-[DEBUG] Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.taotao.rest.service.impl.ContentServiceImpl@c5dc4a2]
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'contentServiceImpl'
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'itemCatServiceImpl'
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'itemCatServiceImpl'
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ItemCatServiceImpl]: AutowiredFieldElement for private com.taotao.mapper.TbItemCatMapper com.taotao.rest.service.impl.ItemCatServiceImpl.itemCatMapper
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'itemCatServiceImpl' to allow for resolving potential circular references
+2018-12-03 18:42:28,089 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'itemCatServiceImpl': AutowiredFieldElement for private com.taotao.mapper.TbItemCatMapper com.taotao.rest.service.impl.ItemCatServiceImpl.itemCatMapper
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemCatMapper'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'itemCatServiceImpl' to bean named 'tbItemCatMapper'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,105 [main] [org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]-[DEBUG] Creating implicit proxy for bean 'itemCatServiceImpl' with 0 common interceptors and 2 specific interceptors
+2018-12-03 18:42:28,105 [main] [org.springframework.aop.framework.JdkDynamicAopProxy]-[DEBUG] Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.taotao.rest.service.impl.ItemCatServiceImpl@52066604]
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'itemCatServiceImpl'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'itemServiceImpl'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'itemServiceImpl'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ItemServiceImpl]: AutowiredFieldElement for private com.taotao.mapper.TbItemMapper com.taotao.rest.service.impl.ItemServiceImpl.itemMapper
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ItemServiceImpl]: AutowiredFieldElement for private com.taotao.mapper.TbItemDescMapper com.taotao.rest.service.impl.ItemServiceImpl.itemDescMapper
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ItemServiceImpl]: AutowiredFieldElement for private com.taotao.mapper.TbItemParamItemMapper com.taotao.rest.service.impl.ItemServiceImpl.itemParamItemMapper
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ItemServiceImpl]: AutowiredFieldElement for private java.lang.String com.taotao.rest.service.impl.ItemServiceImpl.REDIS_ITEM_KEY
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ItemServiceImpl]: AutowiredFieldElement for private java.lang.Integer com.taotao.rest.service.impl.ItemServiceImpl.REDIS_ITEM_EXPIRE
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.ItemServiceImpl]: AutowiredFieldElement for private com.taotao.rest.dao.JedisClient com.taotao.rest.service.impl.ItemServiceImpl.jedisClient
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'itemServiceImpl' to allow for resolving potential circular references
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'itemServiceImpl': AutowiredFieldElement for private com.taotao.mapper.TbItemMapper com.taotao.rest.service.impl.ItemServiceImpl.itemMapper
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemMapper'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'itemServiceImpl' to bean named 'tbItemMapper'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'itemServiceImpl': AutowiredFieldElement for private com.taotao.mapper.TbItemDescMapper com.taotao.rest.service.impl.ItemServiceImpl.itemDescMapper
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemDescMapper'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,105 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'itemServiceImpl' to bean named 'tbItemDescMapper'
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'itemServiceImpl': AutowiredFieldElement for private com.taotao.mapper.TbItemParamItemMapper com.taotao.rest.service.impl.ItemServiceImpl.itemParamItemMapper
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemParamItemMapper'
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'itemServiceImpl' to bean named 'tbItemParamItemMapper'
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'itemServiceImpl': AutowiredFieldElement for private java.lang.String com.taotao.rest.service.impl.ItemServiceImpl.REDIS_ITEM_KEY
+2018-12-03 18:42:28,120 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'REDIS_ITEM_KEY' in any property source
+2018-12-03 18:42:28,120 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'REDIS_ITEM_KEY' in [localProperties] with type [String]
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'itemServiceImpl': AutowiredFieldElement for private java.lang.Integer com.taotao.rest.service.impl.ItemServiceImpl.REDIS_ITEM_EXPIRE
+2018-12-03 18:42:28,120 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'REDIS_ITEM_EXPIRE' in any property source
+2018-12-03 18:42:28,120 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'REDIS_ITEM_EXPIRE' in [localProperties] with type [String]
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'itemServiceImpl': AutowiredFieldElement for private com.taotao.rest.dao.JedisClient com.taotao.rest.service.impl.ItemServiceImpl.jedisClient
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'jedisClientCluster'
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'itemServiceImpl' to bean named 'jedisClientCluster'
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,120 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,136 [main] [org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]-[DEBUG] Creating implicit proxy for bean 'itemServiceImpl' with 0 common interceptors and 2 specific interceptors
+2018-12-03 18:42:28,136 [main] [org.springframework.aop.framework.JdkDynamicAopProxy]-[DEBUG] Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.taotao.rest.service.impl.ItemServiceImpl@5a9d6f02]
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'itemServiceImpl'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'redisServiceImpl'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'redisServiceImpl'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.RedisServiceImpl]: AutowiredFieldElement for private com.taotao.rest.dao.JedisClient com.taotao.rest.service.impl.RedisServiceImpl.jedisClient
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.rest.service.impl.RedisServiceImpl]: AutowiredFieldElement for private java.lang.String com.taotao.rest.service.impl.RedisServiceImpl.INDEX_CONTENT_REDIS_KEY
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'redisServiceImpl' to allow for resolving potential circular references
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'redisServiceImpl': AutowiredFieldElement for private com.taotao.rest.dao.JedisClient com.taotao.rest.service.impl.RedisServiceImpl.jedisClient
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'jedisClientCluster'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'redisServiceImpl' to bean named 'jedisClientCluster'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected element of bean 'redisServiceImpl': AutowiredFieldElement for private java.lang.String com.taotao.rest.service.impl.RedisServiceImpl.INDEX_CONTENT_REDIS_KEY
+2018-12-03 18:42:28,136 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'INDEX_CONTENT_REDIS_KEY' in any property source
+2018-12-03 18:42:28,136 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'INDEX_CONTENT_REDIS_KEY' in [localProperties] with type [String]
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,136 [main] [org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]-[DEBUG] Creating implicit proxy for bean 'redisServiceImpl' with 0 common interceptors and 2 specific interceptors
+2018-12-03 18:42:28,136 [main] [org.springframework.aop.framework.JdkDynamicAopProxy]-[DEBUG] Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.taotao.rest.service.impl.RedisServiceImpl@6d9f7a80]
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redisServiceImpl'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,136 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'transactionManager'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'txAdvice'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbContentCategoryMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbContentMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemCatMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemDescMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemParamItemMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemParamMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderItemMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderShippingMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbUserMapper'
+2018-12-03 18:42:28,151 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-12-03 18:42:28,214 [main] [org.springframework.context.support.ClassPathXmlApplicationContext]-[DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@59252cb6]
+2018-12-03 18:42:28,214 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-12-03 18:42:28,214 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-12-03 18:42:28,214 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2018-12-03 18:42:28,214 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'redisClient'
+2018-12-03 18:42:28,245 [main] [org.apache.solr.client.solrj.impl.HttpClientUtil]-[DEBUG] Creating new http client, config:maxConnections=128&maxConnectionsPerHost=32&followRedirects=false
+2018-12-03 18:42:29,448 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://192.168.222.133:8080][total kept alive: 0; route allocated: 0 of 32; total allocated: 0 of 128]
+2018-12-03 18:42:29,479 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 0][route: {}->http://192.168.222.133:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,479 [main] [org.apache.http.impl.conn.DefaultClientConnectionOperator]-[DEBUG] Connecting to 192.168.222.133:8080
+2018-12-03 18:42:29,510 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-12-03 18:42:29,526 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-12-03 18:42:29,526 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-12-03 18:42:29,526 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-12-03 18:42:29,526 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-12-03 18:42:29,526 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: GET /solr/select?q=*%3A*&start=20&rows=50&wt=javabin&version=2 HTTP/1.1
+2018-12-03 18:42:29,526 [main] [org.apache.http.wire]-[DEBUG]  >> "GET /solr/select?q=*%3A*&start=20&rows=50&wt=javabin&version=2 HTTP/1.1[\r][\n]"
+2018-12-03 18:42:29,542 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-12-03 18:42:29,542 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 192.168.222.133:8080[\r][\n]"
+2018-12-03 18:42:29,542 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-12-03 18:42:29,542 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-12-03 18:42:29,542 [main] [org.apache.http.headers]-[DEBUG] >> GET /solr/select?q=*%3A*&start=20&rows=50&wt=javabin&version=2 HTTP/1.1
+2018-12-03 18:42:29,542 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-12-03 18:42:29,542 [main] [org.apache.http.headers]-[DEBUG] >> Host: 192.168.222.133:8080
+2018-12-03 18:42:29,542 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-12-03 18:42:29,557 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-03 18:42:29,557 [main] [org.apache.http.wire]-[DEBUG]  << "Server: Apache-Coyote/1.1[\r][\n]"
+2018-12-03 18:42:29,557 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-12-03 18:42:29,557 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 115[\r][\n]"
+2018-12-03 18:42:29,557 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Mon, 03 Dec 2018 10:42:29 GMT[\r][\n]"
+2018-12-03 18:42:29,557 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-12-03 18:42:29,557 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 OK
+2018-12-03 18:42:29,557 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 OK
+2018-12-03 18:42:29,557 [main] [org.apache.http.headers]-[DEBUG] << Server: Apache-Coyote/1.1
+2018-12-03 18:42:29,557 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-12-03 18:42:29,557 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 115
+2018-12-03 18:42:29,557 [main] [org.apache.http.headers]-[DEBUG] << Date: Mon, 03 Dec 2018 10:42:29 GMT
+2018-12-03 18:42:29,557 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-12-03 18:42:29,573 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa2][0xe0].responseHeader[0xa3][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeK[0xe0]&params[0xa5][0xe0]!q#*:*[0xe0]%start"20[0xe0]$rows"50[0xe0]"wt'javabin[0xe0]'version!2[0xe0](response[0xc][0x83]at[0x1][0x0][0x80]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://192.168.222.133:8080] can be kept alive indefinitely
+2018-12-03 18:42:29,589 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://192.168.222.133:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,589 [main] [org.apache.solr.client.solrj.impl.HttpClientUtil]-[DEBUG] Creating new http client, config:maxConnections=128&maxConnectionsPerHost=32&followRedirects=false
+2018-12-03 18:42:29,589 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://192.168.222.133:8080][total kept alive: 0; route allocated: 0 of 32; total allocated: 0 of 128]
+2018-12-03 18:42:29,589 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 1][route: {}->http://192.168.222.133:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,589 [main] [org.apache.http.impl.conn.DefaultClientConnectionOperator]-[DEBUG] Connecting to 192.168.222.133:8080
+2018-12-03 18:42:29,589 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-12-03 18:42:29,589 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-12-03 18:42:29,589 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-12-03 18:42:29,589 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-12-03 18:42:29,589 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-12-03 18:42:29,589 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "POST /solr/update?wt=javabin&version=2 HTTP/1.1[\r][\n]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "Transfer-Encoding: chunked[\r][\n]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 192.168.222.133:8080[\r][\n]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.headers]-[DEBUG] >> POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-12-03 18:42:29,589 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-12-03 18:42:29,589 [main] [org.apache.http.headers]-[DEBUG] >> Transfer-Encoding: chunked
+2018-12-03 18:42:29,589 [main] [org.apache.http.headers]-[DEBUG] >> Content-Type: application/xml; charset=UTF-8
+2018-12-03 18:42:29,589 [main] [org.apache.http.headers]-[DEBUG] >> Host: 192.168.222.133:8080
+2018-12-03 18:42:29,589 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "23[\r][\n]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "<delete><query>*:*</query></delete>"
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "0[\r][\n]"
+2018-12-03 18:42:29,589 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-12-03 18:42:29,635 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-03 18:42:29,635 [main] [org.apache.http.wire]-[DEBUG]  << "Server: Apache-Coyote/1.1[\r][\n]"
+2018-12-03 18:42:29,635 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-12-03 18:42:29,635 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 41[\r][\n]"
+2018-12-03 18:42:29,635 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Mon, 03 Dec 2018 10:42:29 GMT[\r][\n]"
+2018-12-03 18:42:29,635 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-12-03 18:42:29,635 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 OK
+2018-12-03 18:42:29,635 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 OK
+2018-12-03 18:42:29,635 [main] [org.apache.http.headers]-[DEBUG] << Server: Apache-Coyote/1.1
+2018-12-03 18:42:29,635 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-12-03 18:42:29,635 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 41
+2018-12-03 18:42:29,635 [main] [org.apache.http.headers]-[DEBUG] << Date: Mon, 03 Dec 2018 10:42:29 GMT
+2018-12-03 18:42:29,635 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-12-03 18:42:29,635 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeQ[0x2]"
+2018-12-03 18:42:29,635 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 1][route: {}->http://192.168.222.133:8080] can be kept alive indefinitely
+2018-12-03 18:42:29,635 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 1][route: {}->http://192.168.222.133:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,635 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://192.168.222.133:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,635 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 1][route: {}->http://192.168.222.133:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,635 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Stale connection check
+2018-12-03 18:42:29,651 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-12-03 18:42:29,651 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-12-03 18:42:29,651 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-12-03 18:42:29,651 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-12-03 18:42:29,651 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-12-03 18:42:29,651 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: POST /solr/update HTTP/1.1
+2018-12-03 18:42:29,651 [main] [org.apache.http.wire]-[DEBUG]  >> "POST /solr/update HTTP/1.1[\r][\n]"
+2018-12-03 18:42:29,651 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2018-12-03 18:42:29,651 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-12-03 18:42:29,651 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Length: 67[\r][\n]"
+2018-12-03 18:42:29,651 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 192.168.222.133:8080[\r][\n]"
+2018-12-03 18:42:29,651 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-12-03 18:42:29,651 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-12-03 18:42:29,651 [main] [org.apache.http.headers]-[DEBUG] >> POST /solr/update HTTP/1.1
+2018-12-03 18:42:29,651 [main] [org.apache.http.headers]-[DEBUG] >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2018-12-03 18:42:29,651 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-12-03 18:42:29,651 [main] [org.apache.http.headers]-[DEBUG] >> Content-Length: 67
+2018-12-03 18:42:29,651 [main] [org.apache.http.headers]-[DEBUG] >> Host: 192.168.222.133:8080
+2018-12-03 18:42:29,651 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-12-03 18:42:29,651 [main] [org.apache.http.wire]-[DEBUG]  >> "commit=true&softCommit=false&waitSearcher=true&wt=javabin&version=2"
+2018-12-03 18:42:29,698 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-03 18:42:29,698 [main] [org.apache.http.wire]-[DEBUG]  << "Server: Apache-Coyote/1.1[\r][\n]"
+2018-12-03 18:42:29,698 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-12-03 18:42:29,698 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 41[\r][\n]"
+2018-12-03 18:42:29,698 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Mon, 03 Dec 2018 10:42:29 GMT[\r][\n]"
+2018-12-03 18:42:29,698 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-12-03 18:42:29,698 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 OK
+2018-12-03 18:42:29,698 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 OK
+2018-12-03 18:42:29,698 [main] [org.apache.http.headers]-[DEBUG] << Server: Apache-Coyote/1.1
+2018-12-03 18:42:29,698 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-12-03 18:42:29,698 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 41
+2018-12-03 18:42:29,698 [main] [org.apache.http.headers]-[DEBUG] << Date: Mon, 03 Dec 2018 10:42:29 GMT
+2018-12-03 18:42:29,698 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-12-03 18:42:29,698 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeQ[0x3]"
+2018-12-03 18:42:29,698 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 1][route: {}->http://192.168.222.133:8080] can be kept alive indefinitely
+2018-12-03 18:42:29,698 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 1][route: {}->http://192.168.222.133:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,698 [main] [org.apache.solr.client.solrj.impl.HttpClientUtil]-[DEBUG] Creating new http client, config:maxConnections=128&maxConnectionsPerHost=32&followRedirects=false
+2018-12-03 18:42:29,698 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://192.168.222.133:8080][total kept alive: 0; route allocated: 0 of 32; total allocated: 0 of 128]
+2018-12-03 18:42:29,698 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 2][route: {}->http://192.168.222.133:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,698 [main] [org.apache.http.impl.conn.DefaultClientConnectionOperator]-[DEBUG] Connecting to 192.168.222.133:8080
+2018-12-03 18:42:29,698 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-12-03 18:42:29,714 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-12-03 18:42:29,714 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-12-03 18:42:29,714 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-12-03 18:42:29,714 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-12-03 18:42:29,714 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "POST /solr/update?wt=javabin&version=2 HTTP/1.1[\r][\n]"
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "Transfer-Encoding: chunked[\r][\n]"
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 192.168.222.133:8080[\r][\n]"
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-12-03 18:42:29,714 [main] [org.apache.http.headers]-[DEBUG] >> POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-12-03 18:42:29,714 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-12-03 18:42:29,714 [main] [org.apache.http.headers]-[DEBUG] >> Transfer-Encoding: chunked
+2018-12-03 18:42:29,714 [main] [org.apache.http.headers]-[DEBUG] >> Content-Type: application/xml; charset=UTF-8
+2018-12-03 18:42:29,714 [main] [org.apache.http.headers]-[DEBUG] >> Host: 192.168.222.133:8080
+2018-12-03 18:42:29,714 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "96[\r][\n]"
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "<add><doc boost="1.0"><field name="id">test001</field><field name="item_title">[0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe5][0x95][0x86][0xe5][0x93][0x81]2</field><field name="item_price">54321</field></doc></add>"
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "0[\r][\n]"
+2018-12-03 18:42:29,714 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-12-03 18:42:29,823 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-03 18:42:29,823 [main] [org.apache.http.wire]-[DEBUG]  << "Server: Apache-Coyote/1.1[\r][\n]"
+2018-12-03 18:42:29,823 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-12-03 18:42:29,823 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 41[\r][\n]"
+2018-12-03 18:42:29,823 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Mon, 03 Dec 2018 10:42:29 GMT[\r][\n]"
+2018-12-03 18:42:29,823 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-12-03 18:42:29,823 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 OK
+2018-12-03 18:42:29,823 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 OK
+2018-12-03 18:42:29,823 [main] [org.apache.http.headers]-[DEBUG] << Server: Apache-Coyote/1.1
+2018-12-03 18:42:29,823 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-12-03 18:42:29,823 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 41
+2018-12-03 18:42:29,823 [main] [org.apache.http.headers]-[DEBUG] << Date: Mon, 03 Dec 2018 10:42:29 GMT
+2018-12-03 18:42:29,823 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-12-03 18:42:29,823 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeY[0x6]"
+2018-12-03 18:42:29,823 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 2][route: {}->http://192.168.222.133:8080] can be kept alive indefinitely
+2018-12-03 18:42:29,823 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 2][route: {}->http://192.168.222.133:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,823 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://192.168.222.133:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,823 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 2][route: {}->http://192.168.222.133:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:42:29,823 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Stale connection check
+2018-12-03 18:42:29,839 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-12-03 18:42:29,839 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-12-03 18:42:29,839 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-12-03 18:42:29,839 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-12-03 18:42:29,839 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-12-03 18:42:29,839 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: POST /solr/update HTTP/1.1
+2018-12-03 18:42:29,839 [main] [org.apache.http.wire]-[DEBUG]  >> "POST /solr/update HTTP/1.1[\r][\n]"
+2018-12-03 18:42:29,839 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2018-12-03 18:42:29,839 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-12-03 18:42:29,839 [main] [org.apache.http.wire]-[DEBUG]  >> "Content-Length: 67[\r][\n]"
+2018-12-03 18:42:29,839 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 192.168.222.133:8080[\r][\n]"
+2018-12-03 18:42:29,839 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
+2018-12-03 18:42:29,839 [main] [org.apache.http.wire]-[DEBUG]  >> "[\r][\n]"
+2018-12-03 18:42:29,839 [main] [org.apache.http.headers]-[DEBUG] >> POST /solr/update HTTP/1.1
+2018-12-03 18:42:29,839 [main] [org.apache.http.headers]-[DEBUG] >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2018-12-03 18:42:29,839 [main] [org.apache.http.headers]-[DEBUG] >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-12-03 18:42:29,839 [main] [org.apache.http.headers]-[DEBUG] >> Content-Length: 67
+2018-12-03 18:42:29,839 [main] [org.apache.http.headers]-[DEBUG] >> Host: 192.168.222.133:8080
+2018-12-03 18:42:29,839 [main] [org.apache.http.headers]-[DEBUG] >> Connection: Keep-Alive
+2018-12-03 18:42:29,839 [main] [org.apache.http.wire]-[DEBUG]  >> "commit=true&softCommit=false&waitSearcher=true&wt=javabin&version=2"
+2018-12-03 18:42:30,729 [main] [org.apache.http.wire]-[DEBUG]  << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-03 18:42:30,729 [main] [org.apache.http.wire]-[DEBUG]  << "Server: Apache-Coyote/1.1[\r][\n]"
+2018-12-03 18:42:30,729 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Type: application/octet-stream[\r][\n]"
+2018-12-03 18:42:30,729 [main] [org.apache.http.wire]-[DEBUG]  << "Content-Length: 41[\r][\n]"
+2018-12-03 18:42:30,729 [main] [org.apache.http.wire]-[DEBUG]  << "Date: Mon, 03 Dec 2018 10:42:30 GMT[\r][\n]"
+2018-12-03 18:42:30,729 [main] [org.apache.http.wire]-[DEBUG]  << "[\r][\n]"
+2018-12-03 18:42:30,729 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Receiving response: HTTP/1.1 200 OK
+2018-12-03 18:42:30,729 [main] [org.apache.http.headers]-[DEBUG] << HTTP/1.1 200 OK
+2018-12-03 18:42:30,729 [main] [org.apache.http.headers]-[DEBUG] << Server: Apache-Coyote/1.1
+2018-12-03 18:42:30,729 [main] [org.apache.http.headers]-[DEBUG] << Content-Type: application/octet-stream
+2018-12-03 18:42:30,729 [main] [org.apache.http.headers]-[DEBUG] << Content-Length: 41
+2018-12-03 18:42:30,729 [main] [org.apache.http.headers]-[DEBUG] << Date: Mon, 03 Dec 2018 10:42:30 GMT
+2018-12-03 18:42:30,729 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Connection can be kept alive indefinitely
+2018-12-03 18:42:30,729 [main] [org.apache.http.wire]-[DEBUG]  << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTime\7"
+2018-12-03 18:42:30,729 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection [id: 2][route: {}->http://192.168.222.133:8080] can be kept alive indefinitely
+2018-12-03 18:42:30,729 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection released: [id: 2][route: {}->http://192.168.222.133:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:45:34,482 [main] [org.apache.solr.client.solrj.impl.HttpClientUtil]-[DEBUG] Creating new http client, config:maxConnections=128&maxConnectionsPerHost=32&followRedirects=false
+2018-12-03 18:45:36,864 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://192.168.222.133:8080][total kept alive: 0; route allocated: 0 of 32; total allocated: 0 of 128]
+2018-12-03 18:45:36,900 [main] [org.apache.http.impl.conn.PoolingClientConnectionManager]-[DEBUG] Connection leased: [id: 0][route: {}->http://192.168.222.133:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-12-03 18:45:36,914 [main] [org.apache.http.impl.conn.DefaultClientConnectionOperator]-[DEBUG] Connecting to 192.168.222.133:8080
+2018-12-03 18:45:36,996 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-12-03 18:45:37,027 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-12-03 18:45:37,029 [main] [org.apache.http.client.protocol.RequestTargetAuthentication]-[DEBUG] Target auth state: UNCHALLENGED
+2018-12-03 18:45:37,029 [main] [org.apache.http.client.protocol.RequestProxyAuthentication]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-12-03 18:45:37,030 [main] [org.apache.http.impl.client.SystemDefaultHttpClient]-[DEBUG] Attempt 1 to execute request
+2018-12-03 18:45:37,030 [main] [org.apache.http.impl.conn.DefaultClientConnection]-[DEBUG] Sending request: GET /solr/select?q=*%3A*&start=20&rows=50&wt=javabin&version=2 HTTP/1.1
+2018-12-03 18:45:37,032 [main] [org.apache.http.wire]-[DEBUG]  >> "GET /solr/select?q=*%3A*&start=20&rows=50&wt=javabin&version=2 HTTP/1.1[\r][\n]"
+2018-12-03 18:45:37,034 [main] [org.apache.http.wire]-[DEBUG]  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-12-03 18:45:37,034 [main] [org.apache.http.wire]-[DEBUG]  >> "Host: 192.168.222.133:8080[\r][\n]"
+2018-12-03 18:45:37,034 [main] [org.apache.http.wire]-[DEBUG]  >> "Connection: Keep-Alive[\r][\n]"
